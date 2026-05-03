@@ -1,6 +1,6 @@
 # ⚡ Model Serving Strategies
 
-When deploying models for companies like Behsazan or AzkiVam, we choose the serving strategy based on the Latency vs. Throughput trade-off.
+When deploying models, we choose the serving strategy based on the Latency vs. Throughput trade-off.
 
 ### 1. Synchronous API (FastAPI/Flask)
 - Best for: Small models, low traffic, or internal tools.
@@ -18,5 +18,7 @@ When deploying models for companies like Behsazan or AzkiVam, we choose the serv
 - Cons: Higher initial setup complexity.
 
 ### 🧭 My Recommendation for Production:
-For a banking environment (like Behsazan), I recommend a Hybrid Approach: Use vLLM for the core LLM inference and an Asynchronous Queue for document processing jobs to ensure the system remains responsive under heavy load.
+For a banking environment, I recommend a Hybrid Approach: Use vLLM for the core LLM inference and an Asynchronous Queue for document processing jobs to ensure the system remains responsive under heavy load.
 ```
+
+---
