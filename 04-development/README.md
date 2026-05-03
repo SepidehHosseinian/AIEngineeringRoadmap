@@ -1,4 +1,3 @@
-```markdown
 # 🤖 Model Selection & Fine-Tuning Strategies
 
 Choosing the right model is a balance between Performance, Latency, and Cost. This section outlines how to navigate the evolving landscape of LLMs and SLMs (Small Language Models).
