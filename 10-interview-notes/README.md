@@ -5,7 +5,7 @@ This section covers high-level architectural questions and trade-offs that often
 ---
 
 ## 1. Designing Scalable RAG Systems (The "Production-Ready" Approach)
-Context: Common for AzkiVam (Customer Support) or Bimeh.com (Policy Analysis).*
+Context: Common for (Customer Support) or (Policy Analysis).*
 
 *Q: How do you handle RAG performance when dealing with millions of documents?
 - Hybrid Search: Don't rely solely on Vector Search. Combine Dense Embeddings (semantic) with BM25 (keyword) to handle specific terms (like insurance policy IDs).
@@ -13,7 +13,7 @@ Context: Common for AzkiVam (Customer Support) or Bimeh.com (Policy Analysis).*
 - Query Expansion/Rewriting: Users often ask vague questions. Use a small LLM to rewrite the query into a more "searchable" version before hitting the database.
 
 ## 2. AI Observability & Monitoring (The "Reliability" Factor)
-Context: Critical for Behsazan Mellat (Banking Compliance).*
+Context: Critical for (Banking Compliance).*
 
 *Q: How do you monitor an LLM application in production without "Gold Labels"?
 - Semantic Drift: Monitor the embeddings of the incoming queries. If they shift significantly from the training/baseline data, your model might be outdated.
