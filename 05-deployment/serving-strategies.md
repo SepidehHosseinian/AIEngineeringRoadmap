@@ -1,6 +1,6 @@
 # ⚡ Model Serving Strategies
 
-When deploying models for companies like Behsazan or AzkiVam, we choose the serving strategy based on the Latency vs. Throughput trade-off.
+When deploying models, we choose the serving strategy based on the Latency vs. Throughput trade-off.
 
 ### 1. Synchronous API (FastAPI/Flask)
 - Best for: Small models, low traffic, or internal tools.
