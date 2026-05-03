@@ -20,5 +20,3 @@ When deploying models for companies like Behsazan or AzkiVam, we choose the serv
 ### 🧭 My Recommendation for Production:
 For a banking environment (like Behsazan), I recommend a Hybrid Approach: Use vLLM for the core LLM inference and an Asynchronous Queue for document processing jobs to ensure the system remains responsive under heavy load.
 ```
-
----

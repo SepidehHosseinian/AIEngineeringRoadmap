@@ -37,5 +37,3 @@ Are the environment variables secured (Secrets Management)?
 
 Is the logging and tracing set up for debugging?
 ```
-
----
