@@ -1,0 +1,17 @@
+# --- Core LLM & Framework ---
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-community>=0.0.10
+
+# --- Vector Database & Similarity Search ---
+# Used for storing and searching semantic cache
+faiss-cpu>=1.7.4
+numpy>=1.24.0
+
+# --- Environment Management ---
+# To load API keys from .env file
+python-dotenv>=1.0.0
+
+# --- Utilities ---
+# Tokenizer for estimating costs and managing context
+tiktoken>=0.5.2
