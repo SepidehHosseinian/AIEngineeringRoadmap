@@ -25,7 +25,7 @@ In a FinTech environment, users expect instant answers.
 ---
 
 ## 🔒 3. Privacy-First Design (On-Premise vs. Cloud)
-For Behsazan Mellat, data sovereignty is key.
+For ‌Banking industry, data sovereignty is key.
 - Local LLMs: Designing systems that can run entirely on-premise using models like Llama-3 or Mistral, fine-tuned for Persian and financial domains.
 - Data Masking Proxy: A middleware that automatically detects and redacts Sensitive Data (PII) before any external API calls.
 
