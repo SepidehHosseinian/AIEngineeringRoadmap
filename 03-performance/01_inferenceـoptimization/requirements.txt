@@ -1,0 +1,20 @@
+# --- Core LLM & Frameworks ---
+transformers>=4.40.0
+torch>=2.2.0
+accelerate>=0.29.0  # For model distribution and device_map="auto"
+
+# --- Quantization (3.2) ---
+bitsandbytes>=0.43.0  # The industry standard for 4-bit/8-bit
+scipy                 # Required by bitsandbytes for some operations
+
+# --- Semantic Caching (3.1) ---
+sentence-transformers # For generating query embeddings
+scikit-learn          # For cosine similarity calculations
+numpy>=1.24.0
+
+# --- Inference Acceleration (3.3) ---
+# Note: Flash-Attention usually needs to be compiled or installed via pre-built wheels
+# flash-attn>=2.5.0   
+
+# --- Serving & Throughput (Upcoming 3.4) ---
+vllm>=0.4.0           # The high-performance serving engine
