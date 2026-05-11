@@ -1,4 +1,4 @@
-``markdown
+
 # 🛡️ AI in Production: Monitoring & Observability
 
 Deploying a model is only 20% of the journey. The remaining 80% is ensuring the system remains reliable, accurate, and cost-effective over time. This section covers how I manage AI systems in a production environment.
