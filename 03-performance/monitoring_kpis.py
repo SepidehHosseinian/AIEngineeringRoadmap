@@ -50,7 +50,7 @@ class LLMMonitor:
         p95 = np.percentile(self.latencies, 95)
         p99 = np.percentile(self.latencies, 99)
         avg_tps = np.mean(self.tps_records)
-        total_cost = (self.total_tokens / 1000)  self.cost_per_1k
+        total_cost = (self.total_tokens / 1000)  #self.cost_per_1k
 
         return {
             "Average TPS": f"{avg_tps:.2f} tokens/sec",
