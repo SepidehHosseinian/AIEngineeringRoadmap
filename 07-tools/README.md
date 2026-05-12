@@ -23,4 +23,3 @@ A curated list of tools and frameworks that I use to build, evaluate, and scale 
 - Ragas / Arize Phoenix: For measuring RAG performance (Faithfulness, Relevance).
 - Weights & Biases (W&B): For tracking experiments and model training.
 - Prometheus/Grafana:* For infrastructure and latency monitoring.
-```
