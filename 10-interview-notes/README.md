@@ -117,6 +117,3 @@ Context: Essential for high-concurrency systems.*
 ## 💡 Pro-Tip for Candidates
 In Senior interviews, there is no "perfect" tool. Always frame your answers in terms of trade-offs:
 > "We could use a more complex Agentic workflow here for better accuracy, but for a banking app where latency is critical, a structured RAG pipeline with a strong Re-ranker is a safer and more cost-effective bet."*
-```
-
----
