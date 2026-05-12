@@ -19,6 +19,3 @@ When deploying models, we choose the serving strategy based on the Latency vs. T
 
 ### 🧭 My Recommendation for Production:
 For a banking environment, I recommend a Hybrid Approach: Use vLLM for the core LLM inference and an Asynchronous Queue for document processing jobs to ensure the system remains responsive under heavy load.
-```
-
----
