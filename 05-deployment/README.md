@@ -36,4 +36,3 @@ Is there a health check endpoint (`/health`)?
 Are the environment variables secured (Secrets Management)?
 
 Is the logging and tracing set up for debugging?
-```
