@@ -40,4 +40,3 @@ AI is expensive. To keep production costs low, I follow these practices:
 
 ## 🧪 4. Evaluation in Production (Evals)
 I use frameworks like Ragas or Arize Phoenix to run continuous evaluations on a small percentage of production traffic to ensure the "Golden Dataset" performance is maintained.
-```
