@@ -21,4 +21,3 @@ To make models production-ready, we apply:
 
 ## 🌍 4. Multilingual & Domain-Specific Challenges
 Strategies for handling languages with less representation or specialized domains (like Fintech or Healthcare) by using specialized tokenizers or targeted supervised fine-tuning (SFT).
-```
