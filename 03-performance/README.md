@@ -37,4 +37,3 @@ I measure the success of optimizations using these metrics:
 1.  Tokens Per Second (TPS): How fast the text is generated.
 2.  Latency (p95/p99): Ensuring 95% of users get a response within acceptable limits.
 3.  Cost per 1k Tokens: Tracking the financial efficiency of the architecture.
-```
