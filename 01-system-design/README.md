@@ -35,4 +35,3 @@ In the ‌Banking industry, data sovereignty is key.
 System design must account for the entire lifecycle:
 - Data Versioning (DVC): Ensuring that model results are reproducible.
 - A/B Testing Framework: Designing the system to serve two different model versions simultaneously to compare performance in the real world.
-```
