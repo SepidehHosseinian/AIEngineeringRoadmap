@@ -46,4 +46,3 @@ Tooling Recommendation: I prefer *LangGraph for cyclic graphs and state manageme
 We carefully balance:
 - Deterministic Components: Hard-coded rules for compliance and calculations.
 - Probabilistic Components:* LLM-based reasoning for natural language understanding.
-```
