@@ -70,4 +70,3 @@ Status: 🚧 Work in Progress. Contributions and Stars are welcome!*
 ---
 *Maintained by: Sepideh Hosseinian
 Building the future of Engineering in the age of AI.*
-```
