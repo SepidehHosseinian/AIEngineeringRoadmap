@@ -18,6 +18,3 @@ We built an end-to-end pipeline using a Modular RAG Architecture:
 ### 📈 Business Impact
 - Efficiency: Reduced document processing time from 45 minutes to 30 seconds.
 - Cost: Lowered operational costs by 60% compared to manual review.
-```
-
----
